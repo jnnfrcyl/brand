@@ -1,0 +1,13 @@
+.color-block {
+	height: 200px;
+	border: 2px solid #fff;
+	color: #fff;
+}
+
+.color-block p {
+	text-transform: uppercase;
+}
+
+.color-block.text-dark {
+	color: #333;
+}

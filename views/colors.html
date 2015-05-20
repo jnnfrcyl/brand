@@ -1,0 +1,312 @@
+<h1 class="page-header">Colors</h1>
+
+<div>
+	<h3>{{ColorGroups.CoreColors.Name}}</h3>
+	<div class="row">
+		<div data-ng-repeat="Color in ColorGroups.CoreColors.Colors">
+			<div class="col-md-2 col-sm-4 col-xs-6 color-blocks">
+				<div class="color-block" style="background-color: {{Color.Hex}};"></div>
+				<h5>{{Color.Description}}</h5>
+			</div>
+		</div>
+	</div>
+</div>
+
+<table class="table table-hover">
+	<thead>
+		<tr>
+			<th>Color</th>
+			<th>HEX</th>
+			<th>RGB</th>
+			<th></th>
+			<th>CMYK</th>
+			<th></th>
+			<th>Pantone-C</th>
+			<th>Pantone-U</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="Color in ColorGroups.CoreColors.Colors">
+			<td><div class="color-dot" style="background-color: {{Color.Hex}};"></div>{{Color.Description}}</td>
+			<td>{{Color.Hex}}</td>
+			<td>{{Color.RGB}}</td>
+			<td></td>
+			<td>{{Color.CMYK}}</td>
+			<td></td>
+			<td>{{Color.Pantone-C}}</td>
+			<td>{{Color.Pantone-U}}</td>
+		</tr>	
+	</tbody>
+</table>
+
+<div class="col-md-10 col-md-offset-2 small">
+	<div class="panel panel-default">
+		<div class="panel-heading">Planning Tool Branding Colors</div>
+		<div class="panel-body">
+			<p>Use these assigned colors for each of our Planning Tools.</p>
+			<ul>
+				<li>Goal Planner: Nav Orange</li>
+				<li>Decision Center: Neutral Blue</li>
+				<li>Distribution Center: Good Green</li>
+			</ul>
+			<p>*Note: These ranges are configurable on the Office level</p>
+		</div>
+	</div>
+</div>
+
+<div>
+	<h3>{{ColorGroups.AccentColors.Name}}</h3>
+	<div class="row">
+		<div data-ng-repeat="Color in ColorGroups.AccentColors.Colors">
+			<div class="col-md-2 col-sm-4 col-xs-6 color-blocks">
+				<div class="color-block" style="background-color: {{Color.Hex}};"></div>
+				<h5>{{Color.Description}}</h5>
+			</div>
+		</div>
+	</div>
+</div>
+
+<h3>Keeping this static row for reference</h3>
+<div class="row">
+	<div class="col-md-2 col-sm-4 col-xs-6 color-blocks">
+		<div class="color-block" style="background-color: #71b0d8;">
+			<div class="color-shade" style="background-color: #357097;"></div>
+			<div class="color-tint" style="background-color: #aad2ed;"></div>
+
+		</div>
+		<h5>Chart Blue</h5>
+	</div>
+	<div class="col-md-2 col-sm-4 col-xs-6 color-blocks">
+		<div class="color-block" style="background-color: #9fcf6d;">
+			<div class="color-shade" style="background-color: #73ab43;"></div>
+			<div class="color-tint" style="background-color: #c7e09e;"></div>
+		</div>
+		<h5>Chart Green</h5>
+	</div>					
+	<div class="col-md-2 col-sm-4 col-xs-6 color-blocks">
+		<div class="color-block" style="background-color: #fbad4e;">
+			<div class="color-shade" style="background-color: #e89124;"></div>
+			<div class="color-tint" style="background-color: #fccc91;"></div>
+		</div>
+		<h5>Chart Orange</h5>
+	</div>					
+	<div class="col-md-2 col-sm-4 col-xs-6 color-blocks">
+		<div class="color-block" style="background-color: #a88cc1;">
+			<div class="color-shade" style="background-color: #7a5ca3;"></div>
+			<div class="color-tint" style="background-color: #dac9e3;"></div>
+		</div>
+		<h5>Chart Purple</h5>
+	</div>					
+	<div class="col-md-2 col-sm-4 col-xs-6 color-blocks">
+		<div class="color-block" style="background-color: #f0ec6f;">
+			<div class="color-shade" style="background-color: #ffc70b;"></div>
+			<div class="color-tint" style="background-color: #f6f4b5;"></div>
+		</div>
+		<h5>Chart Yellow</h5>
+	</div>
+	<div class="col-md-2 col-sm-4 col-xs-6 color-blocks">
+		<div class="color-block" style="background-color: #dd6a66;">
+			<div class="color-shade" style="background-color: #c24b48;"></div>
+			<div class="color-tint" style="background-color: #f2b1af;"></div>
+		</div>
+		<h5>Chart Red</h5>
+	</div>					
+</div>
+
+<table class="table table-hover">
+	<thead>
+		<tr>
+			<th>Color</th>
+			<th>HEX</th>
+			<th>RGB</th>
+			<th></th>
+			<th>CMYK</th>
+			<th></th>
+			<th>Pantone-C</th>
+			<th>Pantone-U</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="Color in ColorGroups.AccentColors.Colors">
+			<td><div class="color-dot" style="background-color: {{Color.Hex}};"></div>{{Color.Description}}</td>
+			<td>{{Color.Hex}}</td>
+			<td>{{Color.RGB}}</td>
+			<td></td>
+			<td>{{Color.CMYK}}</td>
+			<td></td>
+			<td>{{Color.Pantone-C}}</td>
+			<td>{{Color.Pantone-U}}</td>
+		</tr>	
+	</tbody>
+</table>
+
+<div class="col-md-10 col-md-offset-2 small">
+	<div class="panel panel-default">
+		<div class="panel-heading">Links</div>
+		<div class="panel-body">
+			<ul>
+				<li>Primary Links in main content areas should be "Neutral Blue"</li>
+				<li>Muted Primary Links: "Neutral Blue" at 40% opacity. 100% Opacity on Hover.</li>
+				<li>Secondary links (links in footer, etc) can be the same color as the rest of the text in those sections, with text underline on hover.</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="panel panel-default">
+		<div class="panel-heading">Chart Colors</div>
+		<div class="panel-body">
+			<p>Colors should be used in the order that they are presented in the chart:</p>
+			<ul>
+				<li>Chart Blue, Chart Green, Chart Orange, Chart Purple, Chart Yellow</li>
+				<li><strong>Darker Colors:</strong> Chart Blue Shade, Chart Green Shade, Chart Orange Shade, Chart Purple Shade, Chart Yellow Shade</li>
+				<li><strong>Lighter Colors</strong>Chart Blue Tint, Chart Green Tint, Chart Orange Tint, Chart Purple Tint, Chart Yellow Tint</li>
+			</ul>
+			<p>"Warning Red" should be avoided in charts unless it is representing Expenses, Taxes, or Debt. If the chart has a category for Cash, that should be represented with "Good Green"</p>
+		</div>
+	</div>	
+
+	<div class="panel panel-default">
+		<div class="panel-heading">Monte Carlo Scores</div>
+		<div class="panel-body">
+			<ul>
+				<li>"Good Green" - Scores 82 and above on EMA</li>
+				<li>"Chart Yellow" - Score 70-81 on EMA</li>
+				<li>"Warning Red" - Score 0 to 69 on EMA</li>
+			</ul>
+			<p>*Note: These ranges are configurable on the Office level</p>
+		</div>
+	</div>
+</div>			
+
+<div>
+	<h3>{{ColorGroups.NeutralColors.Name}}</h3>
+	<div class="row">
+		<div data-ng-repeat="Color in ColorGroups.NeutralColors.Colors">
+			<div class="col-md-2 col-sm-4 col-xs-6 color-blocks">
+				<div class="color-block" style="background-color: {{Color.Hex}};"></div>
+				<h5>{{Color.Description}}</h5>
+			</div>
+		</div>
+	</div>
+</div>
+
+<table class="table table-hover">
+	<thead>
+		<tr>
+			<th>Color</th>
+			<th>HEX</th>
+			<th>RGB</th>
+			<th></th>
+			<th>CMYK</th>
+			<th></th>
+			<th>Pantone-C</th>
+			<th>Pantone-U</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr ng-repeat="Color in ColorGroups.NeutralColors.Colors">
+			<td><div class="color-dot" style="background-color: {{Color.Hex}};"></div>{{Color.Description}}</td>
+			<td>{{Color.Hex}}</td>
+			<td>{{Color.RGB}}</td>
+			<td></td>
+			<td>{{Color.CMYK}}</td>
+			<td></td>
+			<td>{{Color.Pantone-C}}</td>
+			<td>{{Color.Pantone-U}}</td>
+		</tr>	
+	</tbody>
+</table>
+		
+<h2 class="page-header">Examples: Serious and Powerful Colors</h2>
+<div class="row">
+	<div class="col-md-11 col-md-offset-1">
+		<div class="row">
+			<div class="col-md-6">
+				<p>Example color palettes here</p>
+			</div>
+			<div class="col-md-6">
+				<div class="well">
+					<h3 class="text-center">Text</h3>
+					<p>Explainer text here</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<h2 class="page-header">Examples: Friendly and Approachable Colors</h2>
+<div class="row">
+	<div class="col-md-11 col-md-offset-1">
+		<div class="row">
+			<div class="col-md-6">
+				<p>Example color palettes here</p>
+			</div>
+			<div class="col-md-6">
+				<div class="well">
+					<h3 class="text-center">Text</h3>
+					<p>Explainer text here</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<h2 class="page-header">Palettes</h2>
+<div class="row">
+	<div class="col-md-11 col-md-offset-1">
+		<div class="row">
+			<div class="col-md-6">
+				<p>Example concept boards here</p>
+			</div>
+			<div class="col-md-6">
+				<div class="well">
+					<h3 class="text-center">These targets utilize our Serious/Powerful palette</h3>
+					<p>Target image here</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-11 col-md-offset-1">
+		<div class="row">
+			<div class="col-md-6">
+				<p>Example concept boards here</p>
+			</div>
+			<div class="col-md-6">
+				<div class="well">
+					<h3 class="text-center">These targets utilize our Friendly/Approachable palette</h3>
+					<p>Target image here</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>			
+
+<div class="panel-heading">Developer Notes</div>
+<div class="panel-body">
+	<h4>Investments</h4>
+	<ul>
+		<li>Use <strong>Black</strong> or <strong>White</strong> for main investment value, depending on background color.</li>
+		<li><strong>Good Green</strong> indicates up or positive change values.</li>
+		<li><strong>Warning Red</strong> indicates down or negative change values.</li>
+	</ul>
+	<h4>Net Worth</h4>
+	<ul>
+		<li>Use <strong>Black</strong> or <strong>White</strong> for main net worth value, depending on background color.</li>
+		<li><strong>Good Green</strong> indicates up or positive change values.</li>
+		<li><strong>Black</strong> indicates down or negative change values, not Warning Red.</li>
+	</ul>
+	<h4>Asset Allocation</h4>
+	<ul>
+		<li>These colors are specific and should not be changed.</li>
+		<li>For EMA and most partners, we use a defined list taken from Evestnet's colors with minimal customization.</li>
+		<li>Some partners have custom Asset Allocation colors. Always ask about colors before working on Asset Allocation projects.</li>
+	</ul>
+	<h4>Decision Center</h4>
+	<ul>
+		<li><strong>Good Green</strong> indicates any rise or surplus in assets for a given year.</li>
+		<li><strong>Neutral Blue</strong> indicates the assets you are projected to have (before and after techniques).</li>
+		<li><strong>DC Grey</strong> indicates a loss or shortage in assets for a given year.</li>					
+	</ul>							
+</div>

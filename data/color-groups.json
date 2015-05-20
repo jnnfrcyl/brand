@@ -1,0 +1,252 @@
+{
+	"CoreColors": 
+	{
+		"Name": "Core Colors",
+		"Colors": [
+			{
+				"Description": "Warning Red",
+				"Hex": "#c24b48",
+				"RGB": "194, 75, 71",
+				"CMYK": "18, 84, 73, 5",
+				"Pantone-C": "7418 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Good Green",
+				"Hex": "#90c467",
+				"RGB": "143, 196, 103",
+				"CMYK": "48, 2, 79, 0",
+				"Pantone-C": "359 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Neutral Blue",
+				"Hex": "#468cc8",
+				"RGB": "69, 140, 201",
+				"CMYK": "72, 36, 0, 0",
+				"Pantone-C": "7688 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Nav Blue",
+				"Hex": "#2c485f",
+				"RGB": "45, 72, 95",
+				"CMYK": "87, 67, 43, 29",
+				"Pantone-C": "7545 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Nav Orange",
+				"Hex": "#e56626",
+				"RGB": "229, 102, 95",
+				"CMYK": "5, 74, 97, 1",
+				"Pantone-C": "7578 C",
+				"Pantone-U": "-"
+			}
+		]
+	},
+	"AccentColors": 
+	{
+		"Name": "Accent Colors (Charts)",
+		"Colors": [
+			{
+				"Description": "Chart Blue",
+				"Hex": "#71b0d8",
+				"RGB": "113, 176, 216",
+				"CMYK": "54, 17, 4, 0",
+				"Pantone-C": "542 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Chart Blue Shade (Darker)",
+				"Hex": "#357097",
+				"RGB": "52, 112, 151",
+				"CMYK": "83, 51, 24, 3",
+				"Pantone-C": "7698 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Chart Blue Tint (Lighter)",
+				"Hex": "#aad2ed",
+				"RGB": "170, 210, 237",
+				"CMYK": "31, 7, 1, 0",
+				"Pantone-C": "543 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Chart Green",
+				"Hex": "#9fcf6d",
+				"RGB": "159, 207, 109",
+				"CMYK": "41, 0, 75, 0",
+				"Pantone-C": "336 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Chart Green Shade (Darker)",
+				"Hex": "#73ab43",
+				"RGB": "115, 171, 67",
+				"CMYK": "61, 12, 100, 1",
+				"Pantone-C": "7737 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Chart Green Tint (Lighter)",
+				"Hex": "#c7e09e",
+				"RGB": "199, 224, 158",
+				"CMYK": "24, 0, 48, 0",
+				"Pantone-C": "7486 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Chart Orange",
+				"Hex": "#fbad4e",
+				"RGB": "251, 173, 78",
+				"CMYK": "0, 50, 100, 0",
+				"Pantone-C": "150 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Chart Orange Shade (Darker)",
+				"Hex": "#e89124",
+				"RGB": "232, 145, 36",
+				"CMYK": "7, 50, 100, 0",
+				"Pantone-C": "7564 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Chart Orange Tint (Lighter)",
+				"Hex": "#fccc91",
+				"RGB": "252, 204, 145",
+				"CMYK": "1, 21, 47, 0",
+				"Pantone-C": "148 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Chart Purple",
+				"Hex": "#a88cc1",
+				"RGB": "168, 140, 193",
+				"CMYK": "35, 47, 0, 0",
+				"Pantone-C": "521 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Chart Purple Shade (Darker)",
+				"Hex": "#7a5ca3",
+				"RGB": "122, 92, 163",
+				"CMYK": "60, 73, 3, 0",
+				"Pantone-C": "7677 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Chart Purple Tint (Lighter)",
+				"Hex": "#dac9e3",
+				"RGB": "215, 201, 227",
+				"CMYK": "12, 21, 0, 0",
+				"Pantone-C": "531 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Chart Yellow",
+				"Hex": "#f0ec6f",
+				"RGB": "250, 236, 111",
+				"CMYK": "8, 0, 70, 0",
+				"Pantone-C": "386 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Chart Yellow Shade (Darker)",
+				"Hex": "#ffc70b",
+				"RGB": "255, 199, 11",
+				"CMYK": "8, 0, 70, 0",
+				"Pantone-C": "7408 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Chart Yellow Tint (Lighter)",
+				"Hex": "#f6f4b5",
+				"RGB": "246, 244, 181",
+				"CMYK": "4, 0, 36, 0",
+				"Pantone-C": "0131 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Chart Red",
+				"Hex": "#dd6a66",
+				"RGB": "224, 106, 102",
+				"CMYK": "10, 72, 55, 1",
+				"Pantone-C": "7418 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Chart Red Shade (Darker)",
+				"Hex": "#c24b48",
+				"RGB": "194, 75, 71",
+				"CMYK": "18, 84, 73, 5",
+				"Pantone-C": "7419 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Chart Red Tint (Lighter)",
+				"Hex": "#f2b1af",
+				"RGB": "242, 177, 174",
+				"CMYK": "2, 36, 22, 0",
+				"Pantone-C": "488 C",
+				"Pantone-U": "-"
+			}
+		]
+	},
+	"NeutralColors": 
+	{
+		"Name": "Neutral Colors",
+		"Colors": [
+			{
+				"Description": "Black",
+				"Hex": "#333",
+				"RGB": "51, 51, 51",
+				"CMYK": "69, 63, 62, 58",
+				"Pantone-C": "447 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Text-Muted",
+				"Hex": "#999",
+				"RGB": "153, 153, 153",
+				"CMYK": "42, 35, 35, 1",
+				"Pantone-C": "7 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "DC Grey",
+				"Hex": "#c9c9c9",
+				"RGB": "201, 201, 201",
+				"CMYK": "0, 0, 0, 21",
+				"Pantone-C": "720 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Empty Chart",
+				"Hex": "#eee",
+				"RGB": "238, 238, 238",
+				"CMYK": "0, 0, 0, 7",
+				"Pantone-C": "663 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "Secondary Nav",
+				"Hex": "#f8f8f8",
+				"RGB": "248, 248, 248",
+				"CMYK": "2, 1, 1, 0",
+				"Pantone-C": "663 C",
+				"Pantone-U": "-"
+			},
+			{
+				"Description": "White",
+				"Hex": "#fff",
+				"RGB": "255, 255, 255",
+				"CMYK": "0, 0, 0, 0",
+				"Pantone-C": "P 179-1 C",
+				"Pantone-U": "-"
+			}
+		]
+	}
+}

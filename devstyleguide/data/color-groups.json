@@ -1,0 +1,849 @@
+[
+	{
+		"Name": "Framework Colors",
+		"Groups": [
+			{
+				"Name": "Global Text",
+				"Colors": [
+					{
+						"Description": "Default Text",
+						"Value": "#333"
+					},
+					{
+						"Description": "Muted Text & Disclaimer Text",
+						"Value": "#999"
+					},
+					{
+						"Description": "Link Color",
+						"Value": "#468cc8"
+					},
+					{
+						"Description": "Link Hover",
+						"Value": "#2c6595"
+					},
+					{
+						"Description": "Icons - Modify and Delete",
+						"Value": "#428bca"
+					},
+					{
+						"Description": "Icons - Over Selected Bar",
+						"Value": "#428bca Opacity .5"
+					}
+				]
+			},
+			{
+				"Name": "Bootstrap Standard Colors",
+				"Colors": [
+					{
+						"Description": "Info Background",
+						"Value": "#f6fbff"
+					},
+					{
+						"Description": "Info Top Border",
+						"Value": "#478cc7"
+					},
+					{
+						"Description": "Danger Background",
+						"Value": "#fdf7f7"
+					},
+					{
+						"Description": "Danger Top Border",
+						"Value": "#d85452"
+					},
+					{
+						"Description": "Success Text & Live Chat On",
+						"Value": "#36763d"
+					},
+					{
+						"Description": "Danger Text & Live Chat Off",
+						"Value": "#a94442"
+					},
+					{
+						"Description": "Status box borders",
+						"Value": "#e5e5e5"
+					},
+					{
+						"Description": "Disabled Button",
+						"Value": "#468cc8 Opacity .65"
+					}
+				]
+			},
+			{
+				"Name": "Advisor Navbar",
+				"Colors": [
+					{
+						"Description": "Advisor Navbar Background",
+						"Value": "#2c485f"
+					},
+					{
+						"Description": "Advisor Navbar Hover & Border",
+						"Value": "#223748"
+					}
+				]
+			},
+			{
+				"Name": "Client Navbar",
+				"Colors": [
+					{
+						"Description": "Client Navbar Background",
+						"Value": "#f8f8f8"
+					},
+					{
+						"Description": "Client Navbar Border",
+						"Value": "#d0d0d0"
+					},
+					{
+						"Description": "Client Navbar Item",
+						"Value": "#777"
+					},
+					{
+						"Description": "Client Navbar Item Hover",
+						"Value": "#333"
+					},
+					{
+						"Description": "Client Navbar Item Active",
+						"Value": "#e5662e"
+					}
+				]
+			},
+			{
+				"Name": "Tables",
+				"Colors": [
+					{
+						"Description": "Border Color",
+						"Value": "gray"
+					},
+					{
+						"Description": "Table Row Active",
+						"Value": "#f1f8fd"
+					}
+				]
+			},
+			{
+				"Name": "Footer",
+				"Colors": [
+					{
+						"Description": "Footer Background",
+						"Value": "#fbfbfb"
+					},
+					{
+						"Description": "Footer Top Border",
+						"Value": "#ccc"
+					},
+					{
+						"Description": "Footer Text",
+						"Value": "#777"
+					},
+					{
+						"Description": "Footer Text Muted",
+						"Value": "#999"
+					}
+				]
+			}
+		]
+	},
+	{
+		"Name": "Homepage Colors",
+		"Colors": [
+			{
+				"Description": "Assets - Other",
+				"Value": "#C3D6F3"
+			},
+			{
+				"Description": "Assets - Cash Equivalent",
+				"Value": "#D4DF5A"
+			},
+			{
+				"Description": "Assets - Qualified Retirement",
+				"Value": "#FD9C35"
+			},
+			{
+				"Description": "Assets - Life Insurance",
+				"Value": "#FEC42C"
+			},
+			{
+				"Description": "Assets - Taxable Investment",
+				"Value": "#5793F3"
+			},
+			{
+				"Description": "Assets - Empty Pie Chart",
+				"Value": "#eee"
+			},
+			{
+				"Description": "Top Movers",
+				"Value": "#ddd"
+			}
+		]
+	},
+	{
+		"Name": "Client Overview Colors",
+		"Colors": [
+			{
+				"Description": "Net Worth 1",
+				"Value": "#389bbc"
+			},
+			{
+				"Description": "Net Worth 2 - need help here",
+				"Value": "#389bbc"
+			},
+			{
+				"Description": "Investments 1",
+				"Value": "#729d53"
+			},
+			{
+				"Description": "Investments 2 - need help here",
+				"Value": "#729d53"
+			},
+			{
+				"Description": "Asset Allocation - Equities",
+				"Value": "#347097"
+			},
+			{
+				"Description": "Asset Allocation - Taxable Bonds",
+				"Value": "#9ED86C"
+			},
+			{
+				"Description": "Asset Allocation - Cash",
+				"Value": "#FCAD4D"
+			},
+			{
+				"Description": "Asset Allocation - Other",
+				"Value": "#F2F069"
+			},
+			{
+				"Description": "Asset Allocation - Tax Exempt Bonds",
+				"Value": "#AA8CD6"
+			}
+		]
+	},
+	{
+		"Name": "Facts Colors",
+		"Colors": [
+			{
+				"Description": "Financial Priorities - A",
+				"Value": "#c6be74"
+			},
+			{
+				"Description": "Financial Priorities - B",
+				"Value": "#9e9861"
+			},
+			{
+				"Description": "Financial Priorities - C",
+				"Value": "#9baeab"
+			},
+			{
+				"Description": "Financial Priorities - D",
+				"Value": "#88a1b4"
+			},
+			{
+				"Description": "Financial Priorities - E",
+				"Value": "#94ae86"
+			},
+			{
+				"Description": "Financial Priorities - F",
+				"Value": "#909090"
+			},
+			{
+				"Description": "Financial Priorities - G",
+				"Value": "#88a1b4"
+			},
+			{
+				"Description": "Slide bar",
+				"Value": "#5cb85c"
+			},
+			{
+				"Description": "Asset Allocation - Cash",
+				"Value": "#rgb(0,178,116)"
+			},
+			{
+				"Description": "Asset Allocation - Equities",
+				"Value": "rgb(14,77,150)"
+			},
+			{
+				"Description": "Asset Allocation - Other",
+				"Value": "rgb(175,45,35)"
+			},
+			{
+				"Description": "Asset Allocation - Tax Exempt Bonds",
+				"Value": "rgb(162,118,41)"
+			},
+			{
+				"Description": "Asset Allocation - Taxable Bonds",
+				"Value": "rgb(248,219,0)"
+			},
+			{
+				"Description": "Add an Owner (Advanced Facts) - Background Color",
+				"Value": "#D8E1FA"
+			},
+			{
+				"Description": "Add an Owner (Advanced Facts) - Border 1",
+				"Value": "#E4EAF9"
+			},
+			{
+				"Description": "Add an Owner (Advanced Facts) - Border 2",
+				"Value": "#BBCCF9"
+			},
+			{
+				"Description": "Add an Owner (Advanced Facts) - Text Color",
+				"Value": "#354578"
+			},
+			{
+				"Description": "Add New Investment Plus Icons",
+				"Value": "#56b152"
+			},
+			{
+				"Description": "Edit Icon (Income & Expenses Advanced Facts",
+				"Value": "#2486cf"
+			},
+			{
+				"Description": "Education Expenses Icon - Advanced Facts",
+				"Value": "#208328"
+			},
+			{
+				"Description": "Education Expense Funding",
+				"Value": "rgb(158,216,108)"
+			}
+		]
+	},
+	{
+		"Name": "Goal Planner Colors",
+		"Colors": [
+			{
+				"Description": "Goal Planner",
+				"Value": "#e36637"
+			},
+			{
+				"Description": "Success - 82% - 100%",
+				"Value": "#9ed86c;"
+			},
+			{
+				"Description": "Success - 70% - 81%",
+				"Value": "#f2e34c"
+			},
+			{
+				"Description": "Success - 0% - 69%",
+				"Value": "#c24a49"
+			},
+			{
+				"Description": "Donut Chart Fill",
+				"Value": "#e4e4e4"
+			},
+			{
+				"Description": "Progress Bar in Modal",
+				"Value": "#428DC8"
+			},
+			{
+				"Description": "Blue Bar Charts in Modal",
+				"Value": "rgb(50,114,149)"
+			},
+			{
+				"Description": "Light Blue Bar Charts in Modal",
+				"Value": "#C4D6F1"
+			},
+			{
+				"Description": "Grey Bar Charts in Modal 1",
+				"Value": "rgba (201,201,201,0.4)"
+			},
+			{
+				"Description": "Grey Bar Charts in Modal 2",
+				"Value": "rgba (201,201,201,0.4)"
+			},
+			{
+				"Description": "Green Bar Charts in Modal",
+				"Value": "#A1D770"
+			},
+			{
+				"Description": "Orange Bar Charts in Modal",
+				"Value": "#FEAA54"
+			},
+			{
+				"Description": "Panel Borders in Modal - Blue",
+				"Value": "#428dc8"
+			},
+			{
+				"Description": "Panel Borders in Modal - Green",
+				"Value": "#a1d770"
+			},
+			{
+				"Description": "Panel Borders in Modal - Red",
+				"Value": "#c14c46"
+			},
+			{
+				"Description": "Panel Borders in Modal - Disabled",
+				"Value": "#999"
+			}
+		]
+	},
+	{
+		"Name": "Decision Center Colors",
+		"Colors": [
+			{
+				"Description": "Decision Center",
+				"Value": "#007dc5"
+			},
+			{
+				"Description": "Blue Bar",
+				"Value": "#4196cf"
+			},
+			{
+				"Description": "Blue Bar - Selected",
+				"Value": "#00649E"
+			},
+			{
+				"Description": "Blue Bar - Hover",
+				"Value": "rgba (90,175,232,1)"
+			},
+			{
+				"Description": "Grey Bar",
+				"Value": "c9c9c9"
+			},
+			{
+				"Description": "Grey Bar - Selected",
+				"Value": "#a1a1a1"
+			},
+			{
+				"Description": "Grey Bar - Hover",
+				"Value": "rgba (226,226,226,1)"
+			},
+			{
+				"Description": "Green Bar",
+				"Value": "#77cd60"
+			},
+			{
+				"Description": "Green Bar - Selected",
+				"Value": "#729d53"
+			},
+			{
+				"Description": "Green Bar - Hover",
+				"Value": "rgba (144,230,121,1)"
+			},
+			{
+				"Description": "Stress Test Bar",
+				"Value": "#2d6e9a"
+			},
+			{
+				"Description": "Stress Test Leave to Heirs Line",
+				"Value": "#FEAA54i"
+			},
+			{
+				"Description": "Success - 82% - 100%",
+				"Value": "#9ed86c;"
+			},
+			{
+				"Description": "Success - 70% - 81%",
+				"Value": "#f2e34c"
+			},
+			{
+				"Description": "Success - 0% - 69%",
+				"Value": "#c24a49"
+			},
+			{
+				"Description": "Donut Chart Fill",
+				"Value": "#e4e4e4"
+			}
+		]
+	},
+	{
+		"Name": "Distribution Center Colors",
+		"Colors": [
+			{
+				"Description": "Estate Box",
+				"Value": "#007dc5"
+			},
+			{
+				"Description": "Estate Box Border",
+				"Value": "#345f89"
+			},
+			{
+				"Description": "Taxes and Expenses Box",
+				"Value": "#d55226"
+			},
+			{
+				"Description": "Taxes and Expenses Box Border",
+				"Value": "#a7401d"
+			},
+			{
+				"Description": "Heirs Box",
+				"Value": "#579f56"
+			},
+			{
+				"Description": "Heirs Box Border",
+				"Value": "#3f743e"
+			},
+			{
+				"Description": "Estate Box Totals",
+				"Value": "#333"
+			},
+			{
+				"Description": "Suvivor Income Bar",
+				"Value": "#e4885f"
+			},
+			{
+				"Description": "Survivor Income Bar - Selected",
+				"Value": "#b36a4b"
+			},
+			{
+				"Description": "Survivor Income Bar - Hover",
+				"Value": "#fa9469"
+			}
+		]
+	},
+	{
+		"Name": "Advanced Planning Colors",
+		"Colors": [
+			{
+				"Description": "Advanced Planning",
+				"Value": "#9309b7"
+			},
+			{
+				"Description": "Techniques - Add New Icon",
+				"Value": "#27a209"
+			},
+			{
+				"Description": "Techniques - Add New Text",
+				"Value": "green"
+			},
+			{
+				"Description": "Techniques - Edit Icon",
+				"Value": "#0a08a9"
+			},
+			{
+				"Description": "Techniques - Edit Text",
+				"Value": "blue"
+			},
+			{
+				"Description": "Techniques - Remove Icon",
+				"Value": "#ff0600"
+			},
+			{
+				"Description": "Techniques - Remove Text",
+				"Value": "red"
+			},
+			{
+				"Description": "Reports - Detailed Balance Sheet - Cash Equivalents",
+				"Value": "#347097"
+			},
+			{
+				"Description": "Reports - Detailed Balance Sheet - Personal Property",
+				"Value": "#4370f1"
+			},
+			{
+				"Description": "Reports - Detailed Balance Sheet - Taxable Investments",
+				"Value": "#9ed86c"
+			},
+			{
+				"Description": "Reports - Detailed Balance Sheet - Real Estate",
+				"Value": "#d4df5a"
+			},
+			{
+				"Description": "Reports - Detailed Balance Sheet - Roth IRAs",
+				"Value": "#f2f069"
+			},
+			{
+				"Description": "Reports - Detailed Balance Sheet - Life Insurance",
+				"Value": "#e89124"
+			},
+			{
+				"Description": "Reports - Detailed Balance Sheet - Qualified Retirement",
+				"Value": "#fcad4d"
+			},
+			{
+				"Description": "Reports - Assets - Investment Assets",
+				"Value": "#347097"
+			},
+			{
+				"Description": "Reports - Assets - Insurance Assets",
+				"Value": "#aa8cd6"
+			},
+			{
+				"Description": "Reports - Assets - Other Assets",
+				"Value": "#e89124"
+			},
+			{
+				"Description": "Reports - Assets - Retirement Assets",
+				"Value": "#fcad4d"
+			},
+			{
+				"Description": "Reports - Assets - Cash Assets",
+				"Value": "#9ed86c"
+			},
+			{
+				"Description": "Reports - Estate Transfer - Net to Heirs",
+				"Value": "#4bb333"
+			},
+			{
+				"Description": "Reports - Estate Transfer - Taxes & Expenses ",
+				"Value": "#ff4c3a"
+			},
+			{
+				"Description": "Reports - Estate Transfer - Heirs Assets",
+				"Value": "#fcad4d"
+			},
+			{
+				"Description": "Reports - Estate Liquidity - Total Insurance / Retirement Planning",
+				"Value": "#347097"
+			},
+			{
+				"Description": "Reports - Estate Liquidity - Total Transfer Costs",
+				"Value": "#ff4c3a"
+			},
+			{
+				"Description": "Reports - Flow Charts - Estate",
+				"Value": "rgb(105,165,199)"
+			},
+			{
+				"Description": "Reports - Flow Charts - Taxes & Expenses",
+				"Value": "rgb(205,82,80)"
+			},
+			{
+				"Description": "Reports - Flow Charts - Transfer to Heirs",
+				"Value": "rgb(62,141,62)"
+			},
+			{
+				"Description": "Reports - Monte Carlo - Median",
+				"Value": "rgb(67,112,241)"
+			},
+			{
+				"Description": "Reports - Monte Carlo - 50% Area",
+				"Value": "rgb(255,221,34)"
+			},
+			{
+				"Description": "Reports - Monte Carlo - 75% Area",
+				"Value": "rgb(199,187,102)"
+			},
+			{
+				"Description": "Reports - Monte Carlo - 95% Area",
+				"Value": "rgb(136,102,51)"
+			},
+			{
+				"Description": "Reports - Table Summary Headers",
+				"Value": "#1B75BB"
+			},
+			{
+				"Description": "Reports - Table Summary Backgrounds",
+				"Value": "#fffddd"
+			}
+		]
+	},
+	{
+		"Name": "Reports Colors",
+		"Colors": [
+			{
+				"Description": "Star",
+				"Value": "#fec42c"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#347097"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#1d81a0"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#0000ff"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#4370f1"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "rgb(105,165,199)"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#1275af"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#0696b7"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#128acb"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#4fa5d2"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#6eb9ce"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#aa55a0"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#bd7cb5"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#aa8cd6"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#4e72b7"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#6c8cc8"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#97adda"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#333399"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#4d4da6"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#6666b3"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#8080c0"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#9999cc"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#b3b3d9"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#cccce6"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#e6e6f3"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#e89124"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#fcad4d"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#c6942a"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#d2a82c"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#dec024"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#dcb95e"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#f0b65a"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#f1ca84"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#fab493"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#f3e8b3"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "rgb(62,141,62)"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#008000"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#4bb333"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#65c194"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#9ed86c"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#d4df5a"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#f2f069"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#c03e2d"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#ff0000"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#ff4c3a"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "rgb(205,82,80)"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#993333"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#a64d4d"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#b36666"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#c08080"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#cc9999"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#d9b3b3"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#e6cccc"
+			},
+			{
+				"Description": "Reports Color",
+				"Value": "#f3e6e6"
+			}
+		]
+	}
+]

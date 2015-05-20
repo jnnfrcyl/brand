@@ -1,0 +1,26 @@
+<h1 class="page-header">Colors</h1>
+
+<div data-ng-repeat="ColorGroup in ColorGroups">
+	<h2>{{ColorGroup.Name}}</h2>
+
+	<div class="row">
+		<div data-ng-repeat="Color in ColorGroup.Colors">
+			<div class="col-md-2 color-block" style="background-color: {{Color.Value}};">
+				<h4>{{Color.Description}}</h4>
+				<p>{{Color.Value}}</p>
+			</div>
+		</div>
+	</div>
+
+	<div data-ng-repeat="Group in ColorGroup.Groups">
+		<h3>{{Group.Name}}</h3>
+		<div class="row">
+			<div data-ng-repeat="Color in Group.Colors">
+				<div class="col-md-2 color-block" style="background-color: {{Color.Value}};">
+					<h4>{{Color.Description}}</h4>
+					<p>{{Color.Value}}</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
