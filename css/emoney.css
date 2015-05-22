@@ -83,3 +83,10 @@ ul.alert {
 	max-width: 250px;
 	margin: 10px 0;
 }
+
+.navbar-header button {
+	margin-right: 10px;
+	padding: 4px 10px;
+	color: #fff;
+	text-transform: uppercase;
+}
