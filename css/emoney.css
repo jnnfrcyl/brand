@@ -8,36 +8,43 @@ pre {
 	tab-size: 4;
 }
 
-.page-header {
-	margin-top: 2em;
+/* ----------------- Global Hover, Active, and Focus Transitions */
+
+a:hover,
+a:active,
+a:focus,
+button:hover,
+button:active,
+button:focus {
+	-webkit-transition: all 0.3s ease;
+	   -moz-transition: all 0.3s ease;
+		 -o-transition: all 0.3s ease;
+			transition: all 0.3s ease;
 }
 
-.page-header:first-child {
-	margin-top: 0;
+/* ----------------- Navigation */
+
+.navbar-toggle {
+	margin-right: 10px;
+	padding: 4px 10px;
+	color: #fff;
+	text-transform: uppercase;
 }
 
-.indent {
-	padding-left: 45px;
-	padding-right: 45px;
+.navbar-toggle:hover,
+.navbar-toggle:active,
+.navbar-toggle:focus {
+	background-color: #223748 !important;
 }
 
-.page-footer {
-	background-color: #fbfbfb;
-	border-top: 1px solid #ccc;
-	margin-top: 50px;
-	color: #777;
-	padding: 2em 0;
+/* ----------------- Logo Pages */
+
+.img-logos img {
+	max-width: 250px;
+	margin: 10px 0;
 }
 
-.row,
-.table,
-.panel {
-	margin-bottom: 3em;
-}
-
-small {
-	display: block;
-}
+/* ----------------- Color Page */
 
 .color-blocks h5,
 .color-blocks p {
@@ -75,18 +82,41 @@ small {
 	margin-right: 10px;
 }
 
+/* Footer */
+
+.page-footer {
+	background-color: #fbfbfb;
+	border-top: 1px solid #ccc;
+	margin-top: 50px;
+	color: #777;
+	padding: 2em 0;
+}
+
+/* ----------------- Other Styles */
+
 ul.alert {
 	list-style-position: inside;
 }
 
-.img-logos img {
-	max-width: 250px;
-	margin: 10px 0;
+.page-header {
+	margin-top: 2em;
 }
 
-.navbar-header button {
-	margin-right: 10px;
-	padding: 4px 10px;
-	color: #fff;
-	text-transform: uppercase;
+.page-header:first-child {
+	margin-top: 0;
+}
+
+.indent {
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+.row,
+.table,
+.panel {
+	margin-bottom: 3em;
+}
+
+small {
+	display: block;
 }
