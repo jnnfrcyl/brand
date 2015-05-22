@@ -78,3 +78,8 @@ small {
 ul.alert {
 	list-style-position: inside;
 }
+
+.img-logos img {
+	max-width: 250px;
+	margin: 10px 0;
+}
