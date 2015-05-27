@@ -79,6 +79,9 @@ button:focus {
 	width: 20px;
 	border-radius: 50%;
 	display: inline-block;
+}
+
+table .color-dot {
 	margin-right: 10px;
 }
 
