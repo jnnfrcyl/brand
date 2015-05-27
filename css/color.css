@@ -1,0 +1,38 @@
+.color-blocks h5,
+.color-blocks p {
+	margin-bottom: 4px;
+}
+
+.color-block {
+	height: 50px;
+	border-radius: 3px;
+	position: relative;
+}
+
+.color-tint,
+.color-shade {
+	height: 50px;
+	width: 20px;
+	position: absolute;
+}
+
+.color-tint {
+	right: 0;
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.color-shade {
+	right: 20px;
+}
+
+.color-dot {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+table .color-dot {
+	margin-right: 10px;
+}

@@ -1,0 +1,12 @@
+.navbar-toggle {
+	margin-right: 10px;
+	padding: 4px 10px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.navbar-toggle:hover,
+.navbar-toggle:active,
+.navbar-toggle:focus {
+	background-color: #223748 !important;
+}
