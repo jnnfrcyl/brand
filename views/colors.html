@@ -59,58 +59,14 @@
 	<div class="row">
 		<div data-ng-repeat="Color in ColorGroups.AccentColors.Colors">
 			<div class="col-md-2 col-sm-4 col-xs-6 color-blocks">
-				<div class="color-block" style="background-color: {{Color.Hex}};"></div>
-				<h5>{{Color.Description}}</h5>
-			</div>
+				<div class="color-block" style="background-color: {{Color.Normal.Hex}};">
+					<div class="color-shade" style="background-color: {{Color.Dark.Hex}};"></div>
+					<div class="color-tint" style="background-color: {{Color.Light.Hex}};"></div>
+				</div>
+				<h5>{{Color.Normal.Description}}</h5>
+			</div>			
 		</div>
 	</div>
-</div>
-
-<h3>Keeping this static row for reference</h3>
-<div class="row">
-	<div class="col-md-2 col-sm-4 col-xs-6 color-blocks">
-		<div class="color-block" style="background-color: #71b0d8;">
-			<div class="color-shade" style="background-color: #357097;"></div>
-			<div class="color-tint" style="background-color: #aad2ed;"></div>
-
-		</div>
-		<h5>Chart Blue</h5>
-	</div>
-	<div class="col-md-2 col-sm-4 col-xs-6 color-blocks">
-		<div class="color-block" style="background-color: #9fcf6d;">
-			<div class="color-shade" style="background-color: #73ab43;"></div>
-			<div class="color-tint" style="background-color: #c7e09e;"></div>
-		</div>
-		<h5>Chart Green</h5>
-	</div>					
-	<div class="col-md-2 col-sm-4 col-xs-6 color-blocks">
-		<div class="color-block" style="background-color: #fbad4e;">
-			<div class="color-shade" style="background-color: #e89124;"></div>
-			<div class="color-tint" style="background-color: #fccc91;"></div>
-		</div>
-		<h5>Chart Orange</h5>
-	</div>					
-	<div class="col-md-2 col-sm-4 col-xs-6 color-blocks">
-		<div class="color-block" style="background-color: #a88cc1;">
-			<div class="color-shade" style="background-color: #7a5ca3;"></div>
-			<div class="color-tint" style="background-color: #dac9e3;"></div>
-		</div>
-		<h5>Chart Purple</h5>
-	</div>					
-	<div class="col-md-2 col-sm-4 col-xs-6 color-blocks">
-		<div class="color-block" style="background-color: #f0ec6f;">
-			<div class="color-shade" style="background-color: #ffc70b;"></div>
-			<div class="color-tint" style="background-color: #f6f4b5;"></div>
-		</div>
-		<h5>Chart Yellow</h5>
-	</div>
-	<div class="col-md-2 col-sm-4 col-xs-6 color-blocks">
-		<div class="color-block" style="background-color: #dd6a66;">
-			<div class="color-shade" style="background-color: #c24b48;"></div>
-			<div class="color-tint" style="background-color: #f2b1af;"></div>
-		</div>
-		<h5>Chart Red</h5>
-	</div>					
 </div>
 
 <table class="table table-hover">
@@ -126,17 +82,37 @@
 			<th>Pantone-U</th>
 		</tr>
 	</thead>
-	<tbody>
-		<tr ng-repeat="Color in ColorGroups.AccentColors.Colors">
-			<td><div class="color-dot" style="background-color: {{Color.Hex}};"></div>{{Color.Description}}</td>
-			<td>{{Color.Hex}}</td>
-			<td>{{Color.RGB}}</td>
+	<tbody ng-repeat="Color in ColorGroups.AccentColors.Colors">
+		<tr>
+			<td><div class="color-dot" style="background-color: {{Color.Normal.Hex}};"></div>{{Color.Normal.Description}}</td>
+			<td>{{Color.Normal.Hex}}</td>
+			<td>{{Color.Normal.RGB}}</td>
 			<td></td>
-			<td>{{Color.CMYK}}</td>
+			<td>{{Color.Normal.CMYK}}</td>
 			<td></td>
-			<td>{{Color.PantoneC}}</td>
-			<td>{{Color.PantoneU}}</td>
-		</tr>	
+			<td>{{Color.Normal.PantoneC}}</td>
+			<td>{{Color.Normal.PantoneU}}</td>
+		</tr>
+		<tr>
+			<td><div class="color-dot" style="background-color: {{Color.Dark.Hex}};"></div>{{Color.Dark.Description}}</td>
+			<td>{{Color.Dark.Hex}}</td>
+			<td>{{Color.Dark.RGB}}</td>
+			<td></td>
+			<td>{{Color.Dark.CMYK}}</td>
+			<td></td>
+			<td>{{Color.Dark.PantoneC}}</td>
+			<td>{{Color.Dark.PantoneU}}</td>
+		</tr>
+		<tr>
+			<td><div class="color-dot" style="background-color: {{Color.Light.Hex}};"></div>{{Color.Light.Description}}</td>
+			<td>{{Color.Light.Hex}}</td>
+			<td>{{Color.Light.RGB}}</td>
+			<td></td>
+			<td>{{Color.Light.CMYK}}</td>
+			<td></td>
+			<td>{{Color.Light.PantoneC}}</td>
+			<td>{{Color.Light.PantoneU}}</td>
+		</tr>
 	</tbody>
 </table>
 
