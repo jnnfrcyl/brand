@@ -8,8 +8,14 @@ angular.module('ngStyleGuide', ['ngRoute'])
 			.when('/typography', {
 				templateUrl: 'views/typography.html'
 			})
-			.when('/logos', {
-				templateUrl: 'views/logos.html'
+			.when('/logo-corporate', {
+				templateUrl: 'views/logos/logo-corporate.html'
+			})
+			.when('/logo-emx', {
+				templateUrl: 'views/logos/logo-emx.html'
+			})
+			.when('/logo-other', {
+				templateUrl: 'views/logos/logo-other.html'
 			})
 			.when('/imagery', {
 				templateUrl: 'views/imagery.html'
