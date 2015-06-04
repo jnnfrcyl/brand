@@ -14,8 +14,8 @@ angular.module('ngStyleGuide', ['ngRoute'])
 			.when('/logo-emx', {
 				templateUrl: 'views/logos/logo-emx.html'
 			})
-			.when('/logo-other', {
-				templateUrl: 'views/logos/logo-other.html'
+			.when('/logo-app', {
+				templateUrl: 'views/logos/logo-app.html'
 			})
 			.when('/imagery', {
 				templateUrl: 'views/imagery.html'
