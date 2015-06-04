@@ -10,3 +10,9 @@
 h3.panel-heading {
 	margin-top: 0;
 }
+
+.icons-lg i {
+	font-size: 8em;
+	color: #c9c9c9;
+	margin: 20px 0;
+}
